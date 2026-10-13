@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background: hsl(26, 66%, 93%);
+}
+
+.balance {
+  display: flex;
+  gap: 240px;
+  background: hsl(10, 79%, 65%);
+  width: 410px;
+  padding: 12px 20px;
+  border-radius: 19px;
+  height: 80px;
+  position: relative;
+  bottom: -100px;
+  right: -470px;
+}
+.balance h1 {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: hsl(26, 66%, 93%);
+  font-weight: 100;
+}
+.balance img {
+  width: 56px;
+  position: relative;
+  bottom: -15px;
+}
+.balance h2 {
+  font-family: sans-serif;
+  font-size: 27px;
+  color: white;
+  position: relative;
+  top: -10px;
+}
+
+.spend {
+  background: white;
+  width: 390px;
+  padding: 6px 30px;
+  height: 480px;
+  position: relative;
+  bottom: -120px;
+  right: -470px;
+  border-radius: 19px;
+}
+.spend h3 {
+  font-family: sans-serif;
+  font-size: 24px;
+}
+.spend .box {
+  width: 45px;
+  height: 45px;
+  background: hsl(10, 79%, 65%);
+  border-radius: 9px;
+}
+.spend h4 {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: hsl(28, 10%, 53%);
+  font-weight: 100;
+}
+.all {
+  display: flex;
+  gap: 15px;
+  position: relative;
+  bottom: -140px;
+}
+
+.all .updown:nth-last-of-type(6) .box {
+  height: 90px;
+  position: relative;
+}
+
+.all .updown:nth-last-of-type(5) .box {
+  height: 150px;
+  background: hsl(186, 34%, 65%);
+}
+
+.all .updown:nth-last-of-type(6) {
+  position: relative;
+  top: -45px;
+}
+
+.all .updown:nth-last-of-type(5) {
+  position: relative;
+  top: -102px;
+}
+
+.all .updown:nth-last-of-type(4) .box {
+  height: 95px;
+  position: relative;
+}
+
+.all .updown:nth-last-of-type(4) {
+  position: relative;
+  top: -47px;
+}
+
+.all .updown:nth-last-of-type(3) .box {
+  height: 72px;
+  position: relative;
+}
+
+.all .updown:nth-last-of-type(3) {
+  position: relative;
+  top: -22px;
+}
+
+.all .updown:nth-last-of-type(2) .box {
+  height: 119px;
+  position: relative;
+}
+
+.all .updown:nth-last-of-type(2) {
+  position: relative;
+  top: -69px;
+}
+
+.all .updown:nth-last-of-type(1) .box {
+  height: 80px;
+  position: relative;
+}
+
+.all .updown:nth-last-of-type(1) {
+  position: relative;
+  top: -30px;
+}
+
+.all {
+  position: relative;
+}
+
+.all::after {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 1px;
+  background-color: #eaeaea;
+  top: 115px;
+}
+
+.flc {
+  position: relative;
+  bottom: -90px;
+  display: flex;
+  gap: 150px;
+}
+
+.flc span {
+  font-family: sans-serif;
+  color: hsl(28, 10%, 53%);
+  font-size: 14px;
+}
+.flc h4 {
+  font-family: sans-serif;
+  font-size: 35px;
+  color: black;
+  position: relative;
+  top: -35px;
+  font-weight: 700;
+}
+
+.flc h5 {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.month {
+  position: relative;
+  top: -29px;
+}
+.month h5 {
+  position: relative;
+  bottom: -30px;
+  right: -60px;
+}
+.month h6 {
+  font-size: 15px;
+  color: hsl(28, 10%, 53%);
+  font-family: sans-serif;
+  font-weight: 100;
+}
